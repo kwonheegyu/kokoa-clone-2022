@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find-Kokoa Clone</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <!-- To do: Wifi Icon -->
+      <div class="status-bar__column">
+        <span> No Service </span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43 </span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fa-solid fa-battery-empty fa-lg"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header_title">Find</h1>
+      <div class="screen-header_icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span class="screen-header__gear">
+          <div class="screen-header__gear__i"></div>
+          <i class="fa-solid fa-gear fa-lg"></i>
+        </span>
+      </div>
+    </header>
+    <main class="main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-qrcode fa-2xs"></i><span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-address-book fa-2xs"></i
+          ><span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-face-grin-wide fa-2xs"></i
+          ><span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-envelope fa-2xs"></i><span>invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended-Friends</h6>
+        <span>You have no recommended-friends.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open</h4>
+          <span>
+            Go to Openchat Home<i class="fa-solid fa-chevron-right fa-xs"></i>
+          </span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#BTS</h5>
+            <h6 class="open-post__hashtags">#bts#army#friends</h6>
+            <div class="open-post__members">
+              <img src="#" />
+              <span class="open-post__meber-count"> 802 members</span>
+              <div class="divider"></div>
+              <span class="open-post__meber-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="#" />
+              <div class="open-post__heart-count">
+                <i class="fa-regular fa-heart fa-xs"></i> <span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_btn">
+          <a class="nav_link" href="friends.html"
+            ><i class="far fa-regular fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="chat.html">
+            <span class="nav_notification badge">1</span>
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="more.html">
+            <span class="nav_ellipsis"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/b3871f62da.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
